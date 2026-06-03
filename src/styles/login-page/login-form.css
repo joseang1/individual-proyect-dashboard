@@ -1,0 +1,58 @@
+.box-2 {
+    background-color: var(--surface-container-lowest);
+    border-radius: 10px;
+    border: 1px var(--outline-variant) solid;
+    text-align: start;
+}
+
+.box-2 label, input {
+    display: block;
+}
+
+.email-wrapper {
+    margin: 3% 3%;
+    margin-right: 6%;
+}
+
+.password-wrapper {
+    margin: 3% 3%;
+    margin-right: 6%;
+}
+
+.box-2 label {
+    font-family: 'Plus Jakarta Sans';
+    color: #6b7289;
+    font-weight: 600;
+    font-size: small;
+    padding-bottom: 5px;
+}
+
+.box-2 input {
+    font-family: 'Plus Jakarta Sans';
+    background-color: var(--surface);
+    fill: var(--surface);
+    width: 100%;
+    max-width: 100%;
+    padding: 2% 2% 2% 2%;
+    border-radius: 10px;
+    border: 1px var(--outline-variant) solid;
+
+    &:focus-within {
+        outline: none;
+    }
+}
+
+.forgotten-password a {
+    text-decoration: none;
+    font-family: 'Plus Jakarta Sans';
+    font-size: smaller;
+    font-weight: bold;
+    color: var(--primary);
+    display: flex;
+    float: right;
+    margin: 20px 0% 20px 0%;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
