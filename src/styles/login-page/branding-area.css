@@ -1,0 +1,34 @@
+.branding-area {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: center;
+    gap: 20px;
+    margin: 10% 10% 5% 10%;
+}
+
+.background img {
+    height: 5%;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    transform: rotate(3deg);
+
+    &:hover {
+        transform: rotate(0deg);
+        transition: 0.2s;
+    }
+}
+
+.background h1 {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: bold;
+    color: var(--primary);
+    padding-bottom: 10px;
+    padding-top: 5%;
+    font-size: larger;
+}
+
+.background h2 {
+    font-family: 'Plus Jakarta Sans';
+    color: var(--on-surface-variant);
+}
