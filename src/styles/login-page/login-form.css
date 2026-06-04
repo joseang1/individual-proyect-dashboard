@@ -39,6 +39,7 @@
 
     &:focus-within {
         outline: none;
+        border-color: 1px var(--primary) solid;
     }
 }
 
@@ -101,5 +102,28 @@ hr {
         position: relative;
         background-color: white;
         padding: 0 20px 0 20px;
+    }
+}
+
+
+.buttons-wrap {
+    font-family: 'Plus Jakarta Sans';
+    font-size: 10px;
+    font-weight: bold;
+    margin: 0px 10px 20px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons-wrap a {
+    padding: 10px 50px;
+    border: 1px var(--outline-variant) solid;
+    border-radius: 10px;
+    color: var(--on-surface-variant);
+    background-color: var(--surface-container-lowest);
+    text-decoration: none;
+
+    &:hover {
+        background-color: var(--surface);
     }
 }
