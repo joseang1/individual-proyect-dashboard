@@ -1,0 +1,30 @@
+.support-area {
+    margin: 25px 0px 10px 0px;
+}
+
+.support-area p {
+    font-family: 'Plus Jakarta Sans';
+    color: var(--on-surface-variant);
+}
+
+.support-area a {
+    color: var(--primary);
+    text-decoration: none;
+    
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.support-links {
+    margin: 10px 0px 0px 0px;
+}
+
+.support-links a {
+    font-family: 'Plus Jakarta Sans';
+    color: var(--outline);
+}
+
+.divider {
+    margin: 0 20px 0 20px;
+}
