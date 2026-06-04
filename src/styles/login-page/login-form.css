@@ -60,3 +60,46 @@
         text-decoration: underline;
     }
 }
+
+.access-btn {
+    text-align: center;
+    margin: 0px 10px 20px 10px;
+}
+
+.access-btn button {
+    padding: 4%;
+    width: 100%;
+    border-radius: 10px;
+    background: linear-gradient(45deg, var(--primary), var(--primary-container));
+    cursor: pointer;
+    border: 0px;
+    color: var(--surface-container-lowest);
+    font-family: 'Plus Jakarta Sans';
+    font-size: medium;
+}
+
+hr {
+    font-family: 'Plus Jakarta Sans';
+    font-size: smaller;
+    margin: 0px 15px 20px 15px;
+    border: none;
+    position: relative;
+    text-align: center;
+
+    &::before {
+        background-color: var(--outline-variant);
+        content: "";
+        position: absolute;
+        height: 1px;
+        width: 100%;
+        left: 0;
+        top: 50%
+    }
+
+    &::after {
+        content: attr(data-content);
+        position: relative;
+        background-color: white;
+        padding: 0 20px 0 20px;
+    }
+}
