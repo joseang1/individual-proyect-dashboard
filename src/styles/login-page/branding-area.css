@@ -1,24 +1,18 @@
 .branding-area {
-    display: grid;
-    grid-auto-rows: auto;
-    grid-auto-flow: row;
-    gap: 20px;
-    grid-template-areas:
-        "box-1"
-        "box-2"
-        "box-3";
     align-self: start;
     text-align: center;
     margin: 10% 2% 5% 2%;
 }
 
-.box-1 {
+.background {
     padding-bottom: 5%;
+    background-color: red;
 }
 
-.box-1 img {
+.background img {
     height: auto;
     width: 15%;
+    min-width: 60px;
     border-radius: 10px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
     transform: rotate(3deg);
@@ -29,7 +23,7 @@
     }
 }
 
-.box-1 h1 { 
+.background h1 { 
     font-family: 'Plus Jakarta Sans';
     font-weight: bold;
     color: var(--primary);
@@ -38,7 +32,7 @@
     font-size: larger;
 }
 
-.box-1 h2 {
+.background h2 {
     font-family: 'Plus Jakarta Sans';
     color: var(--on-surface-variant);
 }
