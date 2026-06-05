@@ -127,3 +127,11 @@ hr {
         background-color: var(--surface);
     }
 }
+
+pre {
+    font-family: 'Plus Jakarta Sans';
+    font-size: smaller;
+    color: red;
+    margin-top: 5px;
+    white-space: inherit;
+}

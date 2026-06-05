@@ -23,34 +23,35 @@
                 <h1>Kinetic Admin</h1>
                 <h2>Gestión inteligente de alto rendimiento</h2>
             </section>
-            <section class="login-form">
+            <form class="login-form" onsubmit="return validation()" name="loginform">
                 <div class="email-wrapper">
                     <label for="email-login">CORREO ELECTRÓNICO</label>
                     <input type="email" name="email-login" id="email-login" placeholder="usuario@kinetic.com" required>
+                    <pre id="log-email"></pre>
                 </div>
                 <div class="password-wrapper">
                     <label for="password-login">CONTRASEÑA</label>
-                    <input type="password" class="password-login" id="password-login" placeholder="··········" pattern="(?=.*\d)(?=.[a-z]).{8,}">
-                    <pre id="log"></pre>
+                    <input type="password" class="password-login" id="password-login" placeholder="··········" required>
+                    <pre id="log-psw"></pre>
                 </div>
-                <div class="forgotten-password">
-                    <a href="https://pbs.twimg.com/media/GyyoGAnXMAAgpyJ.jpg" target="_blank">¿Olvidaste tu contraseña?</a>
-                </div>
-                <div class="access-btn">
-                    <input type="submit" class="button" value="Acceder al sistema">
-                </div>
-                <hr class="break" data-content="O continuar con">
-                <div class="buttons-wrap">
-                    <a href="https://pbs.twimg.com/media/GyyoGAnXMAAgpyJ.jpg" class="sso" target="_blank">SSO</a>
-                    <a href="https://pbs.twimg.com/media/GyyoGAnXMAAgpyJ.jpg" class="token" target="_blank">Token</a>
-                </div>
-            </section>
+                 <div class="forgotten-password">
+                <a href="https://pbs.twimg.com/media/GyyoGAnXMAAgpyJ.jpg" target="_blank">¿Olvidaste tu contraseña?</a>
+            </div>
+            <div class="access-btn">
+                <input type="submit" class="button" value="Acceder al sistema">
+            </div>
+            <hr class="break" data-content="O continuar con">
+            <div class="buttons-wrap">
+                <a href="https://pbs.twimg.com/media/GyyoGAnXMAAgpyJ.jpg" class="sso" target="_blank">SSO</a>
+                <a href="https://pbs.twimg.com/media/GyyoGAnXMAAgpyJ.jpg" class="token" target="_blank">Token</a>
+            </div>
+            </form>
             <section class="support-area">
-                <p>¿No tienes acceso? <a href="https://pbs.twimg.com/media/GyyoGAnXMAAgpyJ.jpg">Solicita una cuenta</a></p>
+                <p>¿No tienes acceso? <a href="https://pbs.twimg.com/media/GyyoGAnXMAAgpyJ.jpg" target="_blank">Solicita una cuenta</a></p>
                 <div class="support-links">
-                    <a href="https://pbs.twimg.com/media/GyyoGAnXMAAgpyJ.jpg">Soporte técnico</a>
+                    <a href="https://pbs.twimg.com/media/GyyoGAnXMAAgpyJ.jpg" target="_blank">Soporte técnico</a>
                     <span class="divider"></span>
-                    <a href="https://pbs.twimg.com/media/GyyoGAnXMAAgpyJ.jpg">Seguridad</a>
+                    <a href="https://pbs.twimg.com/media/GyyoGAnXMAAgpyJ.jpg" target="_blank">Seguridad</a>
                 </div>
             </section>
         </div>

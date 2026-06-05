@@ -5,6 +5,7 @@
 .support-area p {
     font-family: 'Plus Jakarta Sans';
     color: var(--on-surface-variant);
+    text-align: center;
 }
 
 .support-area a {
@@ -17,7 +18,9 @@
 }
 
 .support-links {
-    margin: 10px 0px 0px 0px;
+    margin: 10px 100px 20px 100px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .support-links a {
