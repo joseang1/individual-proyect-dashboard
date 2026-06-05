@@ -32,10 +32,10 @@
     margin: 0 20px 0 20px;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
 
     .support-links {
-        margin: 10px 570px;
+        margin: 10px 490px;
     }
 
     .support-links a{

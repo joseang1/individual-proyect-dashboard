@@ -37,17 +37,28 @@
     color: var(--on-surface-variant);
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
+    .branding-area {
+        margin: 5% auto;
+        max-width: 1200px;
+        gap: 2rem;
+    }
+
+    .background {
+        padding-bottom: 20px;
+        margin-bottom: 10px;
+    }
+
     .background img {
         max-width: 80px;
     }
 
-    .background {
-        padding-bottom: 10px;
-        margin-bottom: 5px;
+    .background h1 {
+        font-size: 2.5rem;
+        padding-top: 10px;
     }
 
-    .background h1 {
-        padding-top: 2%;
+    .background h2 {
+        font-size: 1.1rem;
     }
 }

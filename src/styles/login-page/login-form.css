@@ -142,27 +142,51 @@ pre {
     }
 }
 
-
-@media screen and (min-width: 992px) {
-
+@media screen and (min-width: 1200px) {
     .login-form {
-        margin: 0px 300px;
+        max-width: 450px;
+        margin: 0 auto;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
     }
 
-    .email-wrapper {
-        margin: 20px 20px;
-        margin-right: 30px;
+    .email-wrapper, .password-wrapper {
+        margin: 45px 75px, 45px, 45px;
     }
 
-    .password-wrapper {
-        margin: 20px 20px;
-        margin-right: 30px;
+    .login-form label {
+        font-size: 0.85rem;
     }
-}
 
-@media screen and (min-width: 1400px) {
+    .login-form input {
+        font-size: 1rem;
+    }
 
-    .login-form {
-        margin: 0px 500px;
+    .forgotten-password {
+        margin: 25px 25px 25px 0;
+    }
+
+    .access-btn {
+        margin: 20px 25px;
+    }
+
+    .button {
+        padding: 12px 20px;
+        font-size: 1rem;
+    }
+
+    hr {
+        margin: 25px 25px;
+    }
+
+    .buttons-wrap {
+        margin: 20px 25px;
+        gap: 15px;
+    }
+
+    .buttons-wrap a {
+        flex: 1;
+        text-align: center;
+        padding: 12px 20px;
+        font-size: 0.9rem;
     }
 }
