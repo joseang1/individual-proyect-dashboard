@@ -5,13 +5,13 @@
 }
 
 .background {
-    padding-bottom: 5%;
-    margin-bottom: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .background img {
     height: auto;
-    width: 15%;
+    max-width: 80px;
     min-width: 60px;
     border-radius: 10px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
@@ -28,11 +28,26 @@
     font-weight: bold;
     color: var(--primary);
     padding-bottom: 10px;
-    padding-top: 5%;
+    padding-top: 15px;
     font-size: larger;
 }
 
 .background h2 {
     font-family: 'Plus Jakarta Sans';
     color: var(--on-surface-variant);
+}
+
+@media screen and (min-width: 992px) {
+    .background img {
+        max-width: 80px;
+    }
+
+    .background {
+        padding-bottom: 10px;
+        margin-bottom: 5px;
+    }
+
+    .background h1 {
+        padding-top: 2%;
+    }
 }

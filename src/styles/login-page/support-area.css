@@ -31,3 +31,14 @@
 .divider {
     margin: 0 20px 0 20px;
 }
+
+@media screen and (min-width: 1400px) {
+
+    .support-links {
+        margin: 10px 570px;
+    }
+
+    .support-links a{
+        font-size: small;
+    }
+}

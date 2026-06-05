@@ -26,4 +26,4 @@ export function validation() {
     return isValid;
 }
 
-window.validation = validation;
+window.validation = validation; 
