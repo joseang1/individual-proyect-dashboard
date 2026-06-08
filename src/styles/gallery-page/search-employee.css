@@ -14,7 +14,7 @@
 }
 
 .search-employee input {
-    font-family: 'Plus Jakarta Sans';
+    font-family: 'Inter';
     width: 100%;
     padding: 12px 10px 12px 40px;
     border: 1px var(--outline-variant) solid;
@@ -52,9 +52,10 @@
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    padding: 12px 15px 15px 12px;
+    text-align: center;
+    padding: 15px;
     color: var(--on-surface-variant);
-    font-family: 'Plus Jakarta Sans';
+    font-family: 'Inter';
     font-size: 16px;
     font-weight: bold;
 

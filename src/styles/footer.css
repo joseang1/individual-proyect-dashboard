@@ -1,0 +1,28 @@
+.footer-navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: var(--surface-container-low);
+
+    span {
+        display: block;
+    }
+
+    button {
+        border: none;
+        background-color: var(--surface-container-low);
+        cursor: pointer;
+        font-family: 'Inter';
+        font-size: large;
+        color: var(--on-surface-variant);
+        margin: 12px;
+        padding: 9px;
+
+        &:hover {
+            transform: scale(1.05);
+            background-color: var(--on-primary-container-2);
+            border-radius: 25px;
+        }
+    }
+}
+
