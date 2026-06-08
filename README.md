@@ -23,7 +23,7 @@ Seguidamente, con Figma se prepararon los bocetados del proyecto (ver más en: )
 
 Esta página, aunque de buenas a primeras pueda parecer sencilla, cuenta con un script de validación para el email y la contraseña de un supuesto administrador. Este email es **específico** del administrador, y usar cualquier otro devolvería un error y no permitiría el avance a la siguiente página. El email y la contraseñas están especificados en el [config.js](./src/scripts/validation-form/config.js), pero para mayor y mejor legibilidad los dejo por aquí:
 
-- email: giaco@kinetic-adming .com
+- email: giaco@kinetic-admin .com
 - contraseña: admin12kinetic
 
 La página está dividida en tres grandes partes: el branding area o mensaje de bienvenida, el formulario de inicio de sesión y un área dedicada únicamente al soporte técnico.
