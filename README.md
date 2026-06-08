@@ -36,4 +36,27 @@ La tercera y última parte de esta login page es un área, como ya hemos dicho, 
 
 | Mobile | Responsive |
 |---|---|
-|![mobile-result](./src/assets/img/LoginPage_MobileResult.jpg) | Responsive-Result |
+|![mobile-result](./src/assets/img/LoginPage_MobileResult.jpg) | ![responsive-result](./src/assets/img/LoginPage_WebResult.jpg) |
+
+
+---
+
+## Segunda página - Página de galería de empleados
+
+A esta página se accede únicamente tras introducir las credenciales correctas. Consta de tres grandes partes: un header, una página de galería y un footer.
+
+La primera parte, el header, cuenta con el nombre de la página y dos iconoes: un icono para hacer log-out y un icono de notificación, de los cuales tan solo el de log-out es funcional. Este icono, una vez pulsado, te redigirá a la página de login.
+
+La segunda parte, la más llena de contenido, es una galería de empleados que mediante un script se renderizan únicamente siguiendo unos patrones específicos. Por encima de esta galería tenemos una barra de búsqueda para filtrar más rápidamente y encontrar al empleado deseado y una nav-bar llena de inputs para filtrar por la primera letra del nombre. Este filtrado renderiza a los empleados que coincidan; si ningún empleado cumple los criterios, dicha página deolverá un mensaje de 'No se encontraron empleados'.
+
+Asimismo, esta galería muestra una serie de parámetros pedida por el cliente: `Email`, `calle`, `suite`, `ciudad` y `código postal`, al igual que el nombre y un icono generado de forma artificial a falta de fotos oficiales de los supuestos trabajadores.
+
+**NOTA:** En el modo mobile y si se ve desde el ordenador, deberá scrollear manteniendo pulsada la tecla `SHIFT` (`SHIFT` + `SCROLL-UP/SCROLL-DOWN`), pues la barra de scroll horizontal se ha eliminado por motivos estéticos. Si se hace desde el móvil no habrá problema alguno: el scroll se comporta tal y como debería.
+
+La última parte es completamente estética y nada funcional. Es un footer con un nav-bar que incluye iconoes y texto para cuatro importantes partes de una aplicación Dashboard completa: `Dashboard`, `Users`, `Analytics` y `Usuario`. En el modo web, esta nav-bar debería transportarse a la zona superior, al header, y desaparecería del fondo de la página, pero no ha dado tiempo a ser implementado, por lo que se mantiene al fondo de la página, siendo tomada la decisión de entregar un MVP funcional por encima de uno sin acabar.
+
+### Capturas
+
+| Mobile | Responsive |
+|---|---|
+|![mobile-result](./src/assets/img/GalleryPage_MobileResult.jpg) | ![responsive-result](./src/assets/img/GalleryPage_WebResult.jpg) |
