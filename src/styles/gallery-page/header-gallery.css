@@ -12,13 +12,21 @@ header {
     margin: 20px 0px 0px 15px;
 }
 
-.bell {
+.icons {
     margin: 25px 30px 0px 0px;
     display: inline-flex;
     font-size: 30px;
     text-align: center;
     justify-content: end;
     flex: 1;
-    color: var(--primary);
 }
 
+#logout-btn {
+    cursor: pointer;
+    color: rgb(255, 81, 81);
+}
+
+#notification-btn {
+    cursor: pointer;
+    color: var(--primary);
+}
