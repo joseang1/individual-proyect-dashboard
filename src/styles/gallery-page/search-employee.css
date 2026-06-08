@@ -1,0 +1,68 @@
+.search-employee {
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.search-employee input {
+    font-family: 'Plus Jakarta Sans';
+    width: 100%;
+    margin: 20px 20px;
+    padding: 15px 10px 15px 40px;
+    border: 1px var(--outline-variant) solid;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.search-employee i {
+    font-size: 16px;
+    position: absolute;
+    left: 45px;
+    color: #666;
+    pointer-events: none;
+}
+
+.filter-buttons {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    margin-left: 20px;
+    /* margin-right: 20px; */
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.filter-buttons button {
+    background-color: var(--surface-container-high);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 12px 15px 15px 12px;
+    color: var(--on-surface-variant);
+    font-family: 'Plus Jakarta Sans';
+    font-size: 16px;
+    font-weight: bold;
+
+    &:hover {
+        background-color: var(--on-primary-container-2);
+        color: var(--outline);
+    }
+
+    &:active {
+        background-color: var(--primary);
+        color: white;
+    }
+
+    &.is-active {
+        background-color: var(--primary);
+        color: white;
+    }
+}

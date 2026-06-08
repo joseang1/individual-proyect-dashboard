@@ -23,6 +23,10 @@ export function validation() {
         isValid = false;
     }
 
+    if(isValid) {
+        window.location.href = './pages/employees.html';
+    }
+
     return isValid;
 }
 
