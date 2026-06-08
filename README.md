@@ -60,3 +60,31 @@ La última parte es completamente estética y nada funcional. Es un footer con u
 | Mobile | Responsive |
 |---|---|
 |![mobile-result](./src/assets/img/GalleryPage_MobileResult.jpg) | ![responsive-result](./src/assets/img/GalleryPage_WebResult.jpg) |
+
+---
+
+## Tests
+
+Finalmente, se han intentado realizar tests de los scripts de login y renderizado de galería, pero por falta de tiempo no se han podido implementar. La intención era realizarlos con Vitest y proporcionar en capturas de pantalla los tests proporcionados. Al no haberse implementado ninguno, lamentablemente esta sección se mantiene vacía.
+
+---
+
+## Conclusiones
+
+Finalmente, este proyecto ha sido realizado por Jose Ángel Peña Díaz, alumno del bootcamp P5 Digital Academy. Se ha intentado entregar un producto viable con las especificaciones requeridas por el cliente, y aunque no se ha llegado a algunos puntos pedidos, el proyecto es funcional y sus requerimientos, en su mayoría, se cumplen.
+
+### Herramientas usadas
+
+- `Jira`: Para la planificación del proyecto
+- `Stitch` & `Figma`: Para el bocetado y creación de mockups
+- `HTML5`: Para la estructura de la página web
+- `CSS3`: Para los estilos
+- `JavaScript`: Para los scripts
+- ~~`Vitest`: Para los tests~~
+- ~~`PlayWright`: Para los tests E2E~~
+
+### Bases de datos
+
+- `MDN`
+- `Stack Overflow`
+- `W3Schools`
