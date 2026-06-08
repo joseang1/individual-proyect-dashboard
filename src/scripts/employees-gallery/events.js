@@ -2,7 +2,6 @@ import { filterByLetter, searchEmployees } from './filters.js';
 import { renderEmployees } from './render.js';
 
 export function setupEventListeners(allEmployees, filterButtons, searchBar) {
-    // Filter buttons
     filterButtons.forEach(btn => {
         btn.addEventListener('click', () => {
             filterButtons.forEach(b => b.classList.remove('is-active'));
@@ -16,7 +15,6 @@ export function setupEventListeners(allEmployees, filterButtons, searchBar) {
         });
     });
 
-    // Search
     searchBar.addEventListener('input', (e) => {
         const query = e.target.value.trim();
         const filtered = query === '' ? allEmployees : searchEmployees(allEmployees, query);
