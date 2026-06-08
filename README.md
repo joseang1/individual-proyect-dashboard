@@ -6,7 +6,13 @@ Para este proyecto se nos ha propuesto hacer una página estilo dashboard admini
 
 ## Planificación
 
-Para empezar, como en todos los proyectos de este estilo, he escogido Stitch, la IA de Google, para realizar unos bocetos con los que me he acabado quedando. Desde aquí, planifiqué un poco por encima la estructura del proyecto. Como se nos pide una página de inicio de sesión y una galería de empleados, esas son las dos páginas sobre las que trabajaremos.
+Para empezar, generé un equipo en Jira con el cual organizarme y crear historias de usuario. Seguí un poco las provistas por el enunciado. Generé unas historias de usuario, épicas y tareas sobre las cuales organicé mi trabajo y que seguí prácticamente a rajatabla a la hora de crear el diseño de la página.
+
+| Backlog | Tablero | Ejemplo de historia de usuario |
+|---|---|---|
+| ![backlog](./src/assets/img/Jira_SS.jpg) | ![tablero](./src/assets/img/JIRA_SS2.jpg) | ![historia de usuario](./src/assets/img/Jira_SS3.jpg) |
+
+A continuación, como en todos los proyectos de este estilo, he escogido Stitch, la IA de Google, para realizar unos bocetos con los que me he acabado quedando. Desde aquí, planifiqué un poco por encima la estructura del proyecto. Como se nos pide una página de inicio de sesión y una galería de empleados, esas son las dos páginas sobre las que trabajaremos.
 
 ### Capturas de pantalla:
 
@@ -15,7 +21,7 @@ Para empezar, como en todos los proyectos de este estilo, he escogido Stitch, la
 | **Login** | ![mobile](./src/assets/img/Login-Page_Mobile.png) | ![web](./src/assets/img/Login-Page_Web.png) |
 | **User gallery** | ![mobile](./src/assets/img/User-Gallery_Mobile.png) | ![web](./src/assets/img/User-Galler_Web.png) |
 
-Seguidamente, con Figma se prepararon los bocetados del proyecto (ver más en: )
+Seguidamente, con Figma se prepararon los bocetados del proyecto (ver más en: [Proyecto de Figma](https://www.figma.com/design/gCDNt128xmyC3k2zKAZz19/Dashboard?node-id=0-1&p=f&t=OW4fUORMEcZoGXM7-0)).
 
 ---
 
